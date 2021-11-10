@@ -182,11 +182,11 @@
 
 /*Picture styling for about page*/
 #myface {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   clip-path: circle();
   background-size: cover;
-  float: left;
+  float: right;
   margin-right: 21px;
 }
 /* Desktop specific styling*/
@@ -389,6 +389,5 @@
   #myface {
     width: 100px;
     height: 100px;
-    float: right;
   }
 }
