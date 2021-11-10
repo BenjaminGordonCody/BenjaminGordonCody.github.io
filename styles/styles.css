@@ -165,7 +165,6 @@
 #legalchange {
   background-image: url(../images/lgbtlegal.png);
   background-size: contain;
-  onclick: ;
 }
 
 #himbo {
@@ -181,6 +180,18 @@
   background-position: bottom;
 }
 
+/*Picture styling for about page*/
+#myface {
+  background-color: #f59fad;
+  width: 200px;
+  height: 200px;
+  clip-path: circle();
+  background-image: url(../images/myface.jpg);
+  background-size: cover;
+  background-blend-mode: screen;
+  float: right;
+  padding: 15px;
+}
 /* Desktop specific styling*/
 @media (min-width: 650px) {
   /* Top of the page*/
