@@ -9,11 +9,18 @@ function addGenericPageElements() {
     <div id="burgerButtonBox"></div>
   </div>
   <div id="navbar">
+  <a href="index.html" id="link4" class="navLink">About</a>
     <a href="projects.html" id="link1" class="navLink">Projects</a>
       <a href="education.html" id="link2" class="navLink">Education</a>
       <div id="navbarspacer"></div>
-      <a href="https://github.com/BenjaminGordonCody" id="link3" class="navLink">Github</a>
-      <a href="contact.html" id="link5" class="navLink">Contact</a>
+      <div id="iconLinkBox">
+      <a href="https://github.com/BenjaminGordonCody" class="navIcon">
+        <img class="icon" id="githubIcon" src="../images/navbar/github.png">
+      </a>
+      <a href="https://www.linkedin.com/in/bgcody/" class="navIcon">
+        <img class="icon" id="linkedInIcon" src="../images/navbar/LinkedIn.png" >
+      </a>
+      </div>
   </div>`;
 
   let background = `<div id="leftslash"></div>
