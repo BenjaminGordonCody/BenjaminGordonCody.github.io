@@ -151,6 +151,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: background-color 1s;
 }
 
 #legalchange {
@@ -160,6 +161,17 @@
 
 #himbo {
   background-image: url(../images/himbo.jpg);
+}
+
+#this {
+  background-image: url(../images/blog.png);
+  background-size: 400px;
+  background-position: left;
+  transition: background-position 2s background-color 1s;
+}
+
+#this:hover {
+  background-position: right;
 }
 
 #iris {
@@ -274,6 +286,7 @@
 
   .card:hover {
     margin-top: 0;
+    background-color: #f5ef6e;
   }
 
   /* Background Triangles */
