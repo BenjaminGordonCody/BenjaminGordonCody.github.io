@@ -415,11 +415,6 @@
     right: 15px;
   }
 
-  .cardbox {
-    /* background-color: black; */
-    /* align-items: stretch; */
-  }
-
   .card {
     flex: 1;
     width: 85%;
