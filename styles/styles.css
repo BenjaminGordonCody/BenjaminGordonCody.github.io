@@ -183,6 +183,10 @@
   background-position: bottom;
 }
 
+#overtonesynth {
+  background-image: url(../images/overtonestari.jpg);
+}
+
 .icon {
   max-width: 40px;
 }
