@@ -1,0 +1,139 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&family=Sawarabi+Mincho&display&family=Bebas+Neue&display==swap");
+
+/* Bounding boxes */
+
+#testArea {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  background-image: url(./paper-texture.jpg);
+  background-size: cover;
+  background-blend-mode: hue;
+}
+
+#lowerScreen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mainBox {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 5px 5px rgba(125, 125, 150, 0.2),
+    -5px -5px 5px rgba(150, 125, 125, 0.2);
+}
+#colourGrid {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+#example {
+  flex: 1;
+}
+
+#outputArea {
+  max-width: 25vw;
+  flex: 1;
+}
+
+#linkBox {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Swatch elements */
+.swatchContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.swatch {
+  flex: 1;
+  text-align: center;
+  vertical-align: bottom;
+  transition: border 1s, border-radius 1s;
+}
+
+.swatch:hover {
+  color: rgba(255, 255, 255, 0.7);
+  border: 5px solid white;
+  border-radius: 15px;
+}
+
+/* Output area */
+.outputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.outputLabel {
+  flex: 1;
+}
+
+.output {
+  flex: 1;
+  text-align: center;
+  border-radius: 25px;
+}
+
+/* Fonts */
+h1 {
+  font-family: "Sawarabi Mincho", sans-serif;
+}
+
+body {
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Pictures in testing area */
+#labrador {
+  background-image: url(./goodboy.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-blend-mode: luminosity;
+  clip-path: circle();
+  height: 150px;
+  width: 150px;
+  float: right;
+  border: 15px solid grey;
+  border-radius: 50%;
+}
+
+#gritty {
+  background-image: url(./grittyboy.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-blend-mode: luminosity;
+  height: 150px;
+  width: 150px;
+  float: left;
+  border: 15px solid grey;
+  border-radius: 25%;
+  margin: 15px;
+}
+
+/* buttons in testing area */
+button {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  padding: 15px 32px;
+  text-align: center;
+  float: right;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+.link {
+  float: none;
+}
